@@ -1,0 +1,15 @@
+{
+  "fields": [],
+  "model": {
+    "form": {
+      "formBtns": true,
+      "fileName": "filename", 
+      "searchUrl": "",
+      "type": "page",
+      "uiType": "element"
+    },
+    "file": {
+      "tempSelection": "default"
+    }
+  }
+}

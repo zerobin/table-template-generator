@@ -1,0 +1,173 @@
+{
+  "fields": [{
+    "__config__": {
+      "label": "用户名",
+      "labelWidth": 100,
+      "showLabel": true,
+      "changeTag": true,
+      "tag": "el-input",
+      "tagIcon": "input",
+      "required": true,
+      "layout": "colFormItem",
+      "document": "https://element.eleme.cn/#/zh-CN/component/input",
+      "regList": [],
+      "formId": 112,
+      "renderKey": 1593582487219
+    },
+    "__slot__": {
+      "prepend": "",
+      "append": ""
+    },
+    "placeholder": "请输入用户名",
+    "style": {
+      "width": ""
+    },
+    "clearable": true,
+    "prefix-icon": "",
+    "suffix-icon": "",
+    "maxlength": null,
+    "show-word-limit": false,
+    "readonly": false,
+    "disabled": false,
+    "__vModel__": "username"
+  }, {
+    "__config__": {
+      "label": "密码",
+      "showLabel": true,
+      "labelWidth": 100,
+      "changeTag": true,
+      "tag": "el-input",
+      "tagIcon": "password",
+      "layout": "colFormItem",
+      "required": true,
+      "regList": [],
+      "document": "https://element.eleme.cn/#/zh-CN/component/input",
+      "formId": 114,
+      "renderKey": 1593582528823
+    },
+    "__slot__": {
+      "prepend": "",
+      "append": ""
+    },
+    "placeholder": "请输入密码",
+    "show-password": true,
+    "style": {
+      "width": "100%"
+    },
+    "clearable": true,
+    "prefix-icon": "",
+    "suffix-icon": "",
+    "maxlength": null,
+    "show-word-limit": false,
+    "readonly": false,
+    "disabled": false,
+    "__vModel__": "password"
+  }, {
+    "__config__": {
+      "label": "性别",
+      "labelWidth": 100,
+      "showLabel": true,
+      "tag": "el-radio-group",
+      "tagIcon": "radio",
+      "changeTag": true,
+      "layout": "colFormItem",
+      "optionType": "default",
+      "regList": [],
+      "required": true,
+      "border": false,
+      "document": "https://element.eleme.cn/#/zh-CN/component/radio",
+      "formId": 115,
+      "renderKey": 1593582585398,
+      "defaultValue": 1
+    },
+    "__slot__": {
+      "options": [{
+        "label": "选项一",
+        "value": 1
+      }, {
+        "label": "选项二",
+        "value": 2
+      }]
+    },
+    "style": {},
+    "size": "medium",
+    "disabled": false,
+    "__vModel__": "sex"
+  }, {
+    "__config__": {
+      "label": "兴趣",
+      "showLabel": true,
+      "labelWidth": 100,
+      "tag": "el-select",
+      "tagIcon": "select",
+      "layout": "colFormItem",
+      "required": true,
+      "regList": [],
+      "changeTag": true,
+      "document": "https://element.eleme.cn/#/zh-CN/component/select",
+      "formId": 116,
+      "renderKey": 1593582638288
+    },
+    "__slot__": {
+      "options": [{
+        "label": "游泳",
+        "value": "swimming"
+      }, {
+        "label": "跑步",
+        "value": "run"
+      }]
+    },
+    "placeholder": "请选择兴趣",
+    "style": {
+      "width": "100%"
+    },
+    "clearable": true,
+    "disabled": false,
+    "filterable": false,
+    "multiple": false,
+    "__vModel__": "interest"
+  }, {
+    "__config__": {
+      "label": "备注",
+      "labelWidth": 100,
+      "showLabel": true,
+      "tag": "el-input",
+      "tagIcon": "textarea",
+      "required": true,
+      "layout": "colFormItem",
+      "regList": [],
+      "changeTag": true,
+      "document": "https://element.eleme.cn/#/zh-CN/component/input",
+      "formId": 113,
+      "renderKey": 1593582500170
+    },
+    "type": "textarea",
+    "placeholder": "请输入备注",
+    "autosize": {
+      "minRows": 4,
+      "maxRows": 4
+    },
+    "style": {
+      "width": "100%"
+    },
+    "maxlength": null,
+    "show-word-limit": false,
+    "readonly": false,
+    "disabled": false,
+    "__vModel__": "remark"
+  }],
+  "model": {
+    "form": {
+      "fileName": "filename", 
+      "searchUrl": "",
+      "type": "page",
+      "uiType": "element",
+      "importUtils": false,
+      "utilsName": "",
+      "mixinName": ""
+    },
+    "file": {
+      "tempSelection": "form1"
+    }
+  }
+}

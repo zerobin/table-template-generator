@@ -1,0 +1,17 @@
+{
+  "name": "table-template-generator",
+  "version": "1.0.0",
+  "description": "table-template-generator",
+  "author": "zhuanghongbin",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.4"
+  }
+}

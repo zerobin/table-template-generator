@@ -1,0 +1,171 @@
+{
+  "fields": [{
+    "__config__": {
+      "containerType": "form",
+      "layout": "rowFormItem",
+      "tagIcon": "row",
+      "label": "行容器",
+      "layoutTree": true,
+      "children": [{
+        "__config__": {
+          "label": "单行文本",
+          "labelWidth": null,
+          "showLabel": true,
+          "changeTag": true,
+          "tag": "el-input",
+          "tagIcon": "input",
+          "required": true,
+          "layout": "colFormItem",
+          "span": 6,
+          "document": "https://element.eleme.cn/#/zh-CN/component/input",
+          "regList": [],
+          "formId": 101,
+          "renderKey": 1594951741753
+        },
+        "__slot__": {
+          "prepend": "",
+          "append": ""
+        },
+        "placeholder": "请输入单行文本单行文本",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "prefix-icon": "",
+        "suffix-icon": "",
+        "maxlength": null,
+        "show-word-limit": false,
+        "readonly": false,
+        "disabled": false,
+        "__vModel__": "field101"
+      }, {
+        "__config__": {
+          "label": "单行文本",
+          "labelWidth": null,
+          "showLabel": true,
+          "changeTag": true,
+          "tag": "el-input",
+          "tagIcon": "input",
+          "required": true,
+          "layout": "colFormItem",
+          "span": 6,
+          "document": "https://element.eleme.cn/#/zh-CN/component/input",
+          "regList": [],
+          "formId": 101,
+          "renderKey": 1594951800854
+        },
+        "__slot__": {
+          "prepend": "",
+          "append": ""
+        },
+        "placeholder": "请输入单行文本单行文本",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "prefix-icon": "",
+        "suffix-icon": "",
+        "maxlength": null,
+        "show-word-limit": false,
+        "readonly": false,
+        "disabled": false,
+        "__vModel__": "field101"
+      }, {
+        "__config__": {
+          "label": "按钮",
+          "showLabel": false,
+          "changeTag": true,
+          "labelWidth": null,
+          "tag": "el-button",
+          "tagIcon": "button",
+          "span": 6,
+          "layout": "colFormItem",
+          "document": "https://element.eleme.cn/#/zh-CN/component/button",
+          "formId": 103,
+          "renderKey": 1594951808939
+        },
+        "__slot__": {
+          "default": "主要按钮"
+        },
+        "type": "primary",
+        "clickName": "search",
+        "icon": "el-icon-search",
+        "round": false,
+        "size": "medium",
+        "plain": false,
+        "circle": false,
+        "disabled": false,
+        "__vModel__": "field103"
+      }],
+      "document": "https://element.eleme.cn/#/zh-CN/component/layout",
+      "form": {
+        "formRef": "elForm",
+        "formModel": "formData",
+        "size": "medium",
+        "labelPosition": "right",
+        "labelWidth": 100,
+        "formRules": "rules",
+        "gutter": 15,
+        "disabled": false,
+        "span": 24,
+        "formBtns": true
+      },
+      "formId": 101,
+      "span": 24,
+      "renderKey": 1594818295190,
+      "componentName": "row101"
+    },
+    "type": "default",
+    "justify": "start",
+    "align": "top"
+  }, {
+    "__config__": {
+      "ownTable": false,
+      "label": "表格",
+      "showLabel": true,
+      "changeTag": true,
+      "labelWidth": null,
+      "tag": "el-table",
+      "tagIcon": "table",
+      "tbDataType": "dynamic",
+      "defaultValue": [],
+      "span": 24,
+      "layout": "colFormItem",
+      "document": "https://element.eleme.cn/#/zh-CN/component/table",
+      "formId": 105,
+      "renderKey": 1594951864015
+    },
+    "__slot__": {
+      "elTableColumn": [{
+        "prop": "date",
+        "label": "日期"
+      }]
+    },
+    "type": "primary",
+    "round": false,
+    "size": "medium",
+    "plain": false,
+    "circle": false,
+    "data": [{
+      "date": "2016-05-02"
+    }],
+    "stripe": true,
+    "border": false,
+    "height": null,
+    "__vModel__": "field105"
+  }],
+  "model": {
+    "form": {
+      "fileName": "filename",
+      "searchUrl": "",
+      "type": "page",
+      "uiType": "element",
+      "importUtils": false,
+      "utilsName": "",
+      "mixinName": ""
+    },
+    "file": {
+      "tempSelection": "report1"
+    }
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "fields": [{
+    "__config__": {
+      "containerType": "form",
+      "layout": "rowFormItem",
+      "tagIcon": "row",
+      "label": "行容器",
+      "layoutTree": true,
+      "children": [{
+        "__config__": {
+          "method": null,
+          "methodsList": [{ "label": "click", "value": "click" }, { "label": "change", "value": "change" }],
+          "methodName": "defMethods",
+          "label": "分组",
+          "showLabel": true,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 24,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 102,
+          "renderKey": 1595225529309
+        },
+        "__slot__": {
+          "options": [{
+            "label": "选项一",
+            "value": 1
+          }, {
+            "label": "选项二",
+            "value": 2
+          }]
+        },
+        "placeholder": "请选择分组",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": true,
+        "defaultFirstOption": true,
+        "__vModel__": "groupby"
+      }, {
+        "__config__": {
+          "method": "change",
+          "methodsList": [{ "label": "click", "value": "click" }, { "label": "change", "value": "change" }],
+          "methodName": "handlestatfunctionOption",
+          "label": "统计值",
+          "showLabel": true,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 12,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 103,
+          "renderKey": 1595225804679
+        },
+        "__slot__": {
+          "options": [{
+            "label": "最大",
+            "value": "max"
+          }, {
+            "label": "最小",
+            "value": "min"
+          }, {
+            "label": "平均",
+            "value": "avg"
+          }, {
+            "label": "计数",
+            "value": "count"
+          }, {
+            "label": "计数distinct",
+            "value": "count_distinct"
+          }]
+        },
+        "placeholder": "请选择统计值",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": false,
+        "defaultFirstOption": false,
+        "__vModel__": "statfunction"
+      }, {
+        "__config__": {
+          "label": "",
+          "showLabel": false,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 12,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 104,
+          "renderKey": 1595225835392
+        },
+        "__slot__": {
+          "options": [{
+            "label": "",
+            "value": ""
+          }],
+          "html": "<span>{{item.label.split(' ')[0]}}</span>"
+        },
+        "placeholder": "请选择",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": true,
+        "defaultFirstOption": true,
+        "__vModel__": "statfield"
+      }, {
+        "__config__": {
+          "method": "change",
+          "methodsList": [{ "label": "click", "value": "click" }, { "label": "change", "value": "change" }],
+          "methodName": "handleOrderByFieldOption",
+          "label": "排序",
+          "showLabel": true,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 12,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 105,
+          "renderKey": 1595225868565
+        },
+        "__slot__": {
+          "options": [{
+            "label": "降序",
+            "value": "desc"
+          }, {
+            "label": "升序",
+            "value": "asc"
+          }]
+        },
+        "placeholder": "请选择排序",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": false,
+        "defaultFirstOption": false,
+        "__vModel__": "orderbyDescAsc"
+      }, {
+        "__config__": {
+          "label": "",
+          "showLabel": false,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 12,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 106,
+          "renderKey": 1595225889155
+        },
+        "__slot__": {
+          "options": [{
+            "label": "",
+            "value": ""
+          }],
+          "html": "<span>{{item.label.split(' ')[0]}}</span>"
+        },
+        "placeholder": "请选择",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": true,
+        "defaultFirstOption": true,
+        "__vModel__": "orderby"
+      }, {
+        "__config__": {
+          "label": "limit",
+          "labelWidth": null,
+          "showLabel": true,
+          "changeTag": true,
+          "tag": "el-input",
+          "tagIcon": "input",
+          "required": true,
+          "layout": "colFormItem",
+          "span": 24,
+          "document": "https://element.eleme.cn/#/zh-CN/component/input",
+          "regList": [],
+          "formId": 113,
+          "renderKey": 1595226442956
+        },
+        "__slot__": {
+          "prepend": "",
+          "append": ""
+        },
+        "placeholder": "请输入limit",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "prefix-icon": "",
+        "suffix-icon": "",
+        "maxlength": null,
+        "show-word-limit": false,
+        "readonly": false,
+        "disabled": false,
+        "__vModel__": "limit"
+      }, {
+        "__config__": {
+          "label": "过滤条件",
+          "showLabel": true,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 6,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 101,
+          "renderKey": 1595571577588
+        },
+        "__slot__": {
+          "options": [{
+            "label": "大于",
+            "value": ">"
+          }, {
+            "label": "小于",
+            "value": "<"
+          }, {
+            "label": "等于",
+            "value": "="
+          }, {
+            "label": "大于等于",
+            "value": ">="
+          }, {
+            "label": "小于等于",
+            "value": ">="
+          }, {
+            "label": "不等于",
+            "value": "<>"
+          }]
+        },
+        "placeholder": "请选择过滤条件",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": false,
+        "defaultFirstOption": false,
+        "__vModel__": "whereOper"
+      }, {
+        "__config__": {
+          "label": "",
+          "labelWidth": null,
+          "showLabel": false,
+          "changeTag": true,
+          "tag": "el-input",
+          "tagIcon": "input",
+          "required": true,
+          "layout": "colFormItem",
+          "span": 6,
+          "document": "https://element.eleme.cn/#/zh-CN/component/input",
+          "regList": [],
+          "formId": 105,
+          "renderKey": 1595571749143
+        },
+        "__slot__": {
+          "prepend": "",
+          "append": ""
+        },
+        "placeholder": "请输入",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "prefix-icon": "",
+        "suffix-icon": "",
+        "maxlength": null,
+        "show-word-limit": false,
+        "readonly": false,
+        "disabled": false,
+        "__vModel__": "whereValue"
+      }, {
+        "__config__": {
+          "method": "change",
+          "methodsList": [{ "label": "click", "value": "click" }, { "label": "change", "value": "change" }],
+          "methodName": "handleWhereOption",
+          "label": "",
+          "showLabel": false,
+          "labelWidth": null,
+          "tag": "el-select",
+          "tagIcon": "select",
+          "layout": "colFormItem",
+          "span": 12,
+          "required": true,
+          "regList": [],
+          "changeTag": true,
+          "document": "https://element.eleme.cn/#/zh-CN/component/select",
+          "formId": 106,
+          "renderKey": 1595571766921
+        },
+        "__slot__": {
+          "options": [{
+            "label": "",
+            "value": ""
+          }],
+          "html": "<span>{{item.label.split(' ')[0]}}</span>"
+        },
+        "placeholder": "请选择",
+        "style": {
+          "width": "100%"
+        },
+        "clearable": true,
+        "disabled": false,
+        "filterable": false,
+        "multiple": false,
+        "allowCreate": false,
+        "defaultFirstOption": false,
+        "__vModel__": "where"
+      }],
+      "document": "https://element.eleme.cn/#/zh-CN/component/layout",
+      "form": {
+        "formRef": "elForm",
+        "formModel": "formData",
+        "size": "medium",
+        "labelPosition": "right",
+        "labelWidth": 100,
+        "formRules": "rules",
+        "gutter": 15,
+        "disabled": false,
+        "span": 24,
+        "formBtns": true
+      },
+      "formId": 101,
+      "span": 24,
+      "renderKey": 1595225525372,
+      "componentName": "row101",
+      "gutter": 15
+    },
+    "type": "default",
+    "justify": "start",
+    "align": "top"
+  }, {
+    "__config__": {
+      "ownTable": false,
+      "label": "统计结果",
+      "showLabel": true,
+      "changeTag": true,
+      "labelWidth": 100,
+      "tag": "el-table",
+      "tagIcon": "table",
+      "tbDataType": "dynamic",
+      "defaultValue": [],
+      "span": 24,
+      "layout": "colFormItem",
+      "document": "https://element.eleme.cn/#/zh-CN/component/table",
+      "formId": 117,
+      "renderKey": 1595227471589
+    },
+    "__slot__": {
+      "elTableColumn": [{
+        "prop": "date",
+        "label": "日期"
+      }, {
+        "columnType": "VARCHAR",
+        "columnSize": "50",
+        "prop": "name",
+        "label": "模块子项名称"
+      }, {
+        "columnType": "TINYINT",
+        "columnSize": "3",
+        "prop": "type",
+        "label": "数据获取类型"
+      }]
+    },
+    "type": "primary",
+    "round": false,
+    "size": "medium",
+    "plain": false,
+    "circle": false,
+    "data": [{
+      "date": "2016-05-02",
+      "name": null,
+      "type": null
+    }],
+    "stripe": true,
+    "border": false,
+    "height": null,
+    "__vModel__": "statResult"
+  }],
+  "model": {
+    "form": {
+      "fileName": "test2",
+      "searchUrl": "",
+      "type": "page",
+      "uiType": "element",
+      "importUtils": false,
+      "utilsName": "kmCommonUtils",
+      "mixinName": ""
+    },
+    "file": {
+      "tempSelection": "dataReport"
+    }
+  }
+}
